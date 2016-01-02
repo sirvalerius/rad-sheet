@@ -1,0 +1,683 @@
+<!--
+We will create a family tree using just CSS(3)
+The markup will be simple nested lists
+-->
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet'>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+		<p class="resume"> 100 </p>
+		
+		<div class="tree combattimento">
+		<ul>
+			<li>
+				<a href="#">Combattimento</a>
+				<ul>
+					<li>
+						<div class="node inactive-node">
+							<a href="#">Armature Improvvisate</a>
+							<div class="info">
+							<p class="cost">15</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>
+						</div>
+						<ul class="children">
+							<li>
+								<div class="node inactive-node">
+									<a href="#">Armature Rinforzate</a>
+									<div class="info">
+									<p class="cost">20</p>
+									<div class="dropdown">
+									<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+									<div class="dropdown-menu">
+										<a href="#">Community</a>
+									</div>
+									</div>
+									</div>
+								</div>
+								<ul class="children">
+									<li>
+										<div class="node inactive-node">
+											<a href="#">Armature Balistiche</a>
+											<div class="info">
+											<p class="cost">20</p>
+											<div class="dropdown">
+											<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+											<div class="dropdown-menu">
+												<a href="#">Community</a>
+											</div>
+											</div>
+											</div>
+										</div>
+										<ul class="children">
+											<li>
+												<div class="node inactive-node">
+													<a href="#">Armature Corazzate</a>
+													<div class="info">
+													<p class="cost">15</p>
+													<div class="dropdown">
+													<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+													<div class="dropdown-menu">
+														<a href="#">Community</a>
+													</div>
+													</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>	
+						</ul>
+					</li>
+					<li>
+						<div class="node inactive-node root">
+							<a href="#">Armi ad Asta</a>
+							<div class="info">
+							<p class="cost">30</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>	
+						</div>
+					</li>
+					<li>
+						<div class="node inactive-node root">
+							<a href="#">Arco/Balestra</a>
+							<div class="info">
+							<p class="cost">30</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>	
+						</div>
+					</li>
+					<li>
+						<div class="node inactive-node root">
+							<a href="#">Colpo Devstante</a>
+							<div class="info">
+							<p class="cost">30</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>	
+						</div>
+						<ul class="children">
+							<li>
+								<div class="node inactive-node root">
+									<a href="#">Colpo Distruttivo</a>
+									<div class="info">
+									<p class="cost">30</p>
+									<div class="dropdown">
+									<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+									<div class="dropdown-menu">
+										<a href="#">Community</a>
+									</div>
+									</div>
+									</div>	
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="node inactive-node root">
+							<a href="#">Evadere</a>
+							<div class="info">
+							<p class="cost">15</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>	
+							</div>
+					</li>
+					<li>
+						<div class="node inactive-node root">
+							<a href="#">Ambidestria</a>
+							<div class="info">
+							<p class="cost">25</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>	
+							</div>
+					</li>
+					<li>
+						<div class="node inactive-node">
+							<a href="#">Buckler</a>
+							<div class="info">
+							<p class="cost">15</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>
+						</div>
+						<ul class="children">
+							<li>
+								<div class="node inactive-node">
+									<a href="#">Scudo</a>
+									<div class="info">
+									<p class="cost">20</p>
+									<div class="dropdown">
+									<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+									<div class="dropdown-menu">
+										<a href="#">Community</a>
+									</div>
+									</div>
+									</div>
+								</div>
+								<ul class="children">
+									<li>
+										<div class="node inactive-node">
+											<a href="#">Barriera Portatile</a>
+											<div class="info">
+											<p class="cost">20</p>
+											<div class="dropdown">
+											<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+											<div class="dropdown-menu">
+												<a href="#">Community</a>
+											</div>
+											</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>	
+						</ul>
+					</li>
+					<li>
+						<div class="node inactive-node root">
+							<a href="#">Robustezza</a>
+							<div class="info">
+							<p class="cost">10</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>	
+						</div>
+						<div class="slider-dots">
+							<div class="dot active-dot">&bull;</div> <div class="dot">&bull;</div>
+						</div>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<div class="tree shocker">
+		<ul>
+			<li>
+				<a href="#">Shocker</a>
+				<ul>
+					<li>
+						<div class="node inactive-node root">
+							<a href="#">Schocker Tarantula</a>
+							<div class="info">
+							<p class="cost">10</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>	
+							</div>
+					</li>
+					<li>
+						<div class="node inactive-node root">
+							<a href="#">Shocker Wasp</a>
+							<div class="info">
+							<p class="cost">15</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>	
+							</div>
+							<ul class="children">
+								<li>
+									<div class="node inactive-node root">
+										<a href="#">Shocker Centipede</a>
+										<div class="info">
+										<p class="cost">15</p>
+										<div class="dropdown">
+										<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+										<div class="dropdown-menu">
+											<a href="#">Community</a>
+										</div>
+										</div>
+										</div>	
+										</div>
+								</li>
+							</ul>
+					</li>
+					<li>
+						<div class="node inactive-node root">
+							<a href="#">Shocher Mantis</a>
+							<div class="info">
+							<p class="cost">10</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>	
+							</div>
+					</li>
+					<li>
+						<div class="node inactive-node root">
+							<a href="#">Shocker Coleoptera</a>
+							<div class="info">
+							<p class="cost">15</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>	
+							</div>
+					</li>
+					<li>
+						<div class="node inactive-node root">
+							<a href="#">Shocker Scorpion</a>
+							<div class="info">
+							<p class="cost">15</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>	
+						</div>
+						<ul>
+							<li>
+								<div class="node inactive-node root">
+									<a href="#">Munizioni Scorpion</a>
+									<div class="info">
+									<p class="cost">5</p>
+									<div class="dropdown">
+									<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+									<div class="dropdown-menu">
+										<a href="#">Community</a>
+									</div>
+									</div>
+									</div>	
+								</div>
+							</li>	
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+		
+		<div class="tree meccanica">
+			<ul class="children">
+				<li>
+					<a href="#">Meccanica</a>
+					<ul class="children">
+						<li>
+							<div class="node inactive-node root">
+								<a href="#">Generare Risorse</a>
+								<div class="info">
+								<p class="cost">25</p>
+								<div class="dropdown">
+								<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+								<div class="dropdown-menu">
+									<a href="#">Community</a>
+								</div>
+								</div>
+								</div>	
+							</div>
+						</li>
+						<li>
+							<div class="node inactive-node">
+								<a href="#">Gestire gli Esplosivi</a>
+								<div class="info">
+								<p class="cost">15</p>
+								<div class="dropdown">
+								<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+								<div class="dropdown-menu">
+									<a href="#">Community</a>
+								</div>
+								</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="node inactive-node">
+								<a href="#">Costruire Gadgets</a>
+								<div class="info">
+								<p class="cost">15</p>
+								<div class="dropdown">
+								<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+								<div class="dropdown-menu">
+									<a href="#">Community</a>
+								</div>
+								</div>
+								</div>
+							</div>
+						</li>
+						<li>
+						<div class="node inactive-node">
+							<a href="#">Riparazioni di Fortuna</a>
+							<div class="info">
+							<p class="cost">15</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>
+						</div>
+							<ul class="children">
+								<li>
+									<div class="node inactive-node">
+										<a href="#">Riparazioni Avanzate</a>
+										<div class="info">
+										<p class="cost">15</p>
+										<div class="dropdown">
+										<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+										<div class="dropdown-menu">
+											<a href="#">Community</a>
+										</div>
+										</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="node inactive-node">
+										<a href="#">Scassinare</a>
+										<div class="info">
+										<p class="cost">15</p>
+										<div class="dropdown">
+										<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+										<div class="dropdown-menu">
+											<a href="#">Community</a>
+										</div>
+										</div>
+										</div>
+									</div>
+									<ul class="children">
+										<li>
+											<div class="node inactive-node">
+												<a href="#">Sciacallo</a>
+												<div class="info">
+												<p class="cost">25</p>
+												<div class="dropdown">
+												<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+												<div class="dropdown-menu">
+													<a href="#">Community</a>
+												</div>
+												</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<div class="node inactive-node">
+										<a href="#">Disinnescare</a>
+										<div class="info">
+										<p class="cost">15</p>
+										<div class="dropdown">
+										<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+										<div class="dropdown-menu">
+											<a href="#">Community</a>
+										</div>
+										</div>
+										</div>
+									</div>
+									<ul class="children">
+										<li>
+											<div class="node inactive-node">
+												<a href="#">Recuperare</a>
+												<div class="info">
+												<p class="cost">15</p>
+												<div class="dropdown">
+												<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+												<div class="dropdown-menu">
+													<a href="#">Community</a>
+												</div>
+												</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</li>
+								<li>
+								<div class="node inactive-node">
+									<a href="#">Kit aggiuntivo</a>
+									<div class="info">
+									<p class="cost">15</p>
+									<div class="dropdown">
+									<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+									<div class="dropdown-menu">
+										<a href="#">Community</a>
+									</div>
+									</div>
+									</div>
+								</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div> 
+		
+		<div class="tree medicina">
+		<ul>
+			<li>
+				<a href="#">Medicina</a>
+				<ul>
+					<li>
+						<div class="node inactive-node">
+							<a href="#">Diagnosi</a>
+							<div class="info">
+							<p class="cost">10</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>
+						</div>
+						<ul class="children">
+							<li>
+								<div class="node inactive-node">
+									<a href="#">Triage</a>
+									<div class="info">
+									<p class="cost">20</p>
+									<div class="dropdown">
+									<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+									<div class="dropdown-menu">
+										<a href="#">Community</a>
+									</div>
+									</div>
+									</div>
+								</div>
+								<ul class="children">
+									<li>
+										<div class="node inactive-node">
+											<a href="#">Operare</a>
+											<div class="info">
+											<p class="cost">20</p>
+											<div class="dropdown">
+											<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+											<div class="dropdown-menu">
+												<a href="#">Community</a>
+											</div>
+											</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="node inactive-node">
+											<a href="#">Trattamenti Avanzati</a>
+											<div class="info">
+											<p class="cost">20</p>
+											<div class="dropdown">
+											<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+											<div class="dropdown-menu">
+												<a href="#">Community</a>
+											</div>
+											</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<div class="node inactive-node">
+									<a href="#">Premere sulle Ferite</a>
+									<div class="info">
+									<p class="cost">15</p>
+									<div class="dropdown">
+									<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+									<div class="dropdown-menu">
+										<a href="#">Community</a>
+									</div>
+									</div>
+									</div>
+								</div>
+								<ul class="children">
+									<li>
+										<div class="node inactive-node">
+											<a href="#">Stabilizzare</a>
+											<div class="info">
+											<p class="cost">20</p>
+											<div class="dropdown">
+											<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+											<div class="dropdown-menu">
+												<a href="#">Community</a>
+											</div>
+											</div>
+											</div>
+										</div>
+										<ul class="children">
+											<li>
+												<div class="node inactive-node">
+													<a href="#">Rianimare</a>
+													<div class="info">
+													<p class="cost">25</p>
+													<div class="dropdown">
+													<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+													<div class="dropdown-menu">
+														<a href="#">Community</a>
+													</div>
+													</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="node inactive-node root">
+							<a href="#">Sintetizzare Farmaci</a>
+							<div class="info">
+							<p class="cost">20</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>	
+						</div>
+						<ul class="children">
+							<li>
+								<div class="node inactive-node" id="concompo1">
+									<a href="#">Concentrare Composti</a>
+									<div class="info">
+									<p class="cost">40</p>
+									<div class="dropdown">
+									<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+									<div class="dropdown-menu">
+										<a href="#">Community</a>
+									</div>
+									</div>
+									</div>	
+								</div>
+							</li>	
+						</ul>
+					</li>
+					<li>
+						<div class="node inactive-node">
+							<a href="#">Sintetizzare Tossine</a>
+							<div class="info">
+							<p class="cost">20</p>
+							<div class="dropdown">
+							<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+							<div class="dropdown-menu">
+								<a href="#">Community</a>
+							</div>
+							</div>
+							</div>	
+						</div>
+						<ul class="children">
+							<li>
+								<div class="node inactive-node" id="concompo2">
+									<a href="#">Concentrare Composti</a>
+									<div class="info">
+									<p class="cost">40</p>
+									<div class="dropdown">
+									<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+									<div class="dropdown-menu">
+										<a href="#">Community</a>
+									</div>
+									</div>
+									</div>	
+								</div>
+							</li>	
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

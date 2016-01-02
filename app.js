@@ -63,7 +63,7 @@ var main = function() {
 	$('.node').click(function (evt) { click_handler(evt,$(this),"begin")});
 	
 	$('.dropdown-toggle').click( function() {
-        $('dropdown-menu').toggle(); 
+        $(this).children('.dropdown-menu').toggle(); 
     });
 };
 

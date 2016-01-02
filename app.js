@@ -61,6 +61,10 @@ var click_handler = function(evt,current_node,mode) {
 
 var main = function() { 	
 	$('.node').click(function (evt) { click_handler(evt,$(this),"begin")});
+	
+	$('.dropdown-toggle').click( function() {
+        $('dropdown-menu').toggle(); 
+    });
 };
 
 

@@ -16,6 +16,10 @@ var add_checker = function(current_node) {
 
 var click_handler = function(evt,current_node,mode) {
 		
+		
+		$('.dropdown-menu').hide();
+		$('.dropdown-menu').removeClass('active-dropdown-menu');
+		
 		var cost = parseInt(current_node.children('.info').children('.cost').text());
 		
 //		alert(mode+' '+current_node.children('a').text());

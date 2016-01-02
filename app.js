@@ -72,11 +72,15 @@ var main = function() {
 			current_description.removeClass('active-dropdown-menu');
 		} else {
 			current_description.addClass('active-dropdown-menu');
-			current_description.toggle();
+			current_description.slideToggle();
 		}
     });
  	
 	$('.node').click(function (evt) { click_handler(evt,$(this),"begin")});
+	
+	$('.resume').scroll(function() { 
+		$('#FixedDiv').css('top', $(this).scrollTop());
+	});
 };
 
 

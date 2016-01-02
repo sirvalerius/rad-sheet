@@ -193,7 +193,7 @@ The markup will be simple nested lists
 								</div>
 								<ul class="children">
 									<li>
-										<div class="node inactive-node">
+										<div class="node inactive-node" id="barport">
 											<a href="#">Barriera Portatile</a>
 											<div class="info">
 											<p class="cost">20</p>
@@ -223,9 +223,38 @@ The markup will be simple nested lists
 							</div>
 							</div>	
 						</div>
-						<div class="slider-dots">
-							<div class="dot active-dot">&bull;</div> <div class="dot">&bull;</div>
-						</div>
+						<ul class="children">
+							<li>
+								<div class="node inactive-node root">
+									<a href="#">Robustezza</a>
+									<div class="info">
+									<p class="cost">10</p>
+									<div class="dropdown">
+									<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+									<div class="dropdown-menu">
+										<a href="#">Aggiunge 1 punto ferita, acquistabile fino a 3 volte.</a>
+									</div>
+									</div>
+									</div>	
+								</div>
+								<ul class="children">
+									<li>
+										<div class="node inactive-node root" id="rob3">
+											<a href="#">Robustezza</a>
+											<div class="info">
+											<p class="cost">10</p>
+											<div class="dropdown">
+											<a href="#" class="dropdown-toggle"><b class="caret"></b></a>
+											<div class="dropdown-menu">
+												<a href="#">Aggiunge 1 punto ferita, acquistabile fino a 3 volte.</a>
+											</div>
+											</div>
+											</div>	
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
 					</li>
 				</ul>
 			</li>

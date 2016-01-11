@@ -1,3 +1,8 @@
+
+$.getScript("sparkle.js", function(){
+
+});
+
 var main = function() {
     $('.btn').click( function() {	
 		document.location.href = "sheet.html";
@@ -12,7 +17,7 @@ var main = function() {
         {
             $('.btn').addClass('disabled');
         }
-        else if (pwd == "trevorneverwins") {
+        else if (majortom(pwd) == "41d12b1502f8836ea2b7d45678f7572f") {
             $('.btn').removeClass('disabled');
         }
         else {
@@ -20,6 +25,7 @@ var main = function() {
         }
     });
 }
+
 
 $('.btn').addClass('disabled');
 $(document).ready(main);

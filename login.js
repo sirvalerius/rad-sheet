@@ -5,10 +5,10 @@ $.getScript("sparkle.js", function(){
 
 var main = function() {
     $('.btn').click( function() {	
-		document.location.href = "sheet.html";
+		document.location.href = String(majortom($('.status-box').val()))+'.html';
     });
     
-    $('.status-box').keyup( function() {
+   /* $('.status-box').keyup( function() {
         var postLenght = $(this).val().length;
 		var pwd = $(this).val();
         var charactersLeft = 140 - postLenght;
@@ -23,9 +23,9 @@ var main = function() {
         else {
             $('.btn').addClass('disabled');
         }
-    });
+    }); */
 }
 
 
-$('.btn').addClass('disabled');
+/*$('.btn').addClass('disabled');*/
 $(document).ready(main);

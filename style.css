@@ -5,18 +5,27 @@ body {
 	background-attachment: fixed; 
 }
 
+p {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .resume-box {
 	padding: 5px 10px;
 	display: inline-block;
 	text-align: center;
 	position: fixed;
-	right: 5;
 	/*background-color: rgba(200,200,200,.9);*/
 	background-image: url("rust-resume.jpg");
 	background-size: contain;
 	opacity: 10;
 	z-index: 1000;
 	margin: 5px;
+	right: 1%;
 }
 
 .resume-box * {
@@ -118,18 +127,23 @@ right connector from last child*/
 }
 
 .active-node{
-	 /*background: rgba(206,220,206,.9);*/
-	 background-image: url("scrap_paper_crossed.png");
+	/*background: rgba(206,220,206,.9);*/
+	background-image: url("scrap_paper_crossed.png");
 	background-size: cover;
+
 }
 
 .inactive-node{
 	/* background: rgba(55,59,55,.9); */
-	 background-image: url("scrap_paper.png");
+	background-image: url("scrap_paper.png");
 	background-size: cover;
 }
 
 .descr{
+	display:none;
+}
+
+.add_parent, .alt_parent, .add_children, .alt_children{
 	display:none;
 }
 
